@@ -1,0 +1,1050 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"C5",
+				"C5a_base	C5a_base"
+			],
+			[
+				"C4",
+				"C4f_list	C4f_list"
+			],
+			[
+				"def",
+				"deferred"
+			],
+			[
+				"C1",
+				"C1a_deferred	C1a_deferred"
+			],
+			[
+				"B5",
+				"B5e_list	B5e_list"
+			],
+			[
+				"B1",
+				"B1a_function	B1a_function"
+			],
+			[
+				"A1",
+				"A1b_request	A1b_request"
+			],
+			[
+				"wish",
+				"wishLists"
+			],
+			[
+				"requ",
+				"requestToken"
+			],
+			[
+				"tweet",
+				"tweetsReq"
+			],
+			[
+				"bear",
+				"bearerReq"
+			],
+			[
+				"en",
+				"encoded64"
+			],
+			[
+				"enco",
+				"encodeURIComponent"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"nav-pill",
+				"nav-pills-border-radius"
+			],
+			[
+				"get",
+				"getPrecision"
+			],
+			[
+				"cepa",
+				"cepages"
+			],
+			[
+				"html",
+				"html2js"
+			],
+			[
+				"noFin",
+				"noFiltering"
+			],
+			[
+				"ReqP",
+				"RequestParser"
+			],
+			[
+				"req",
+				"reqparse"
+			],
+			[
+				"filt",
+				"filterBy"
+			],
+			[
+				"fil",
+				"filteredElements"
+			],
+			[
+				"re",
+				"responseHeaders"
+			],
+			[
+				"region",
+				"regionsData"
+			],
+			[
+				"modal",
+				"modalInstance"
+			],
+			[
+				"state",
+				"stateParams"
+			],
+			[
+				"sta",
+				"stateParams"
+			],
+			[
+				"translate",
+				"translateProvider"
+			],
+			[
+				"Iden",
+				"identity"
+			],
+			[
+				"is",
+				"isinstance"
+			],
+			[
+				"MONGO",
+				"MONGODB_PORT"
+			],
+			[
+				"hostEl",
+				"hostElPos"
+			],
+			[
+				"hos",
+				"hostElPos"
+			],
+			[
+				"tar",
+				"targetElPos"
+			],
+			[
+				"drop",
+				"dropdown-position"
+			],
+			[
+				"toggle",
+				"toggleElement"
+			],
+			[
+				"dropdown",
+				"dropdownCtrl"
+			],
+			[
+				"dropD",
+				"dropdownCtrl"
+			],
+			[
+				"tests",
+				"testsToRun"
+			],
+			[
+				"test",
+				"testOption"
+			],
+			[
+				"newS",
+				"newStudyName"
+			],
+			[
+				"load",
+				"loadedStudyName"
+			],
+			[
+				"pro",
+				"protractor"
+			],
+			[
+				"lower",
+				"lowerCase"
+			],
+			[
+				"findElem",
+				"findElements"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"text",
+				"text-decoration"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/thomas/.config/sublime-text-2/Packages/User/gjs-snippets/C5b_all.sublime-snippet",
+			"settings":
+			{
+				"buffer_size": 310,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "live/C/1_create_wishlist.js",
+			"settings":
+			{
+				"buffer_size": 745,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "live/C/4_control_flow_with_q.js",
+			"settings":
+			{
+				"buffer_size": 185,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "live/C/5_control_flow_with_q_parallel.js",
+			"settings":
+			{
+				"buffer_size": 185,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "live/D/0_generator_demo.js",
+			"settings":
+			{
+				"buffer_size": 169,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"next",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"Javascr",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"Set java",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"synta j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synt css",
+				"Set Syntax: CSS"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"setting",
+				"Preferences: Settings - User"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"set syn",
+				"Set Syntax: HTML"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"syntax js",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 584.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/thomas/Development/async/live/B/4_control_flow_with_cb.js",
+		"/home/thomas/Development/async/live/B/1_create_wishlist.js",
+		"/home/thomas/Development/async/live/B/5_control_flow_with_async.js",
+		"/home/thomas/Development/async/B/5_control_flow_with_async.js",
+		"/home/thomas/.config/sublime-text-2/Packages/User/gjs-snippets/B4h_hell.sublime-snippet",
+		"/home/thomas/Development/async/live/A/3_get_wishlist.js",
+		"/home/thomas/Development/async/A/2_add_to_wishlist.js",
+		"/home/thomas/Development/async/A/3_get_wishlist.js",
+		"/home/thomas/Development/async/live/A/2_add_to_wishlist.js",
+		"/home/thomas/Development/async/live/A/1_create_wishlist.js",
+		"/home/thomas/.config/sublime-text-2/Packages/User/gjs-snippets/B1c_error.sublime-snippet",
+		"/home/thomas/.config/sublime-text-2/Packages/User/gjs-snippets/B1b_end.sublime-snippet",
+		"/home/thomas/Development/async/B/4_control_flow_with_cb.js",
+		"/home/thomas/.config/sublime-text-2/Packages/User/gjs-snippets/A1a_options.sublime-snippet",
+		"/home/thomas/.config/sublime-text-2/Packages/User/gjs-snippets/A1a_request.sublime-snippet",
+		"/home/thomas/.config/sublime-text-2/Packages/User/gjs-snippets/A1c_data.sublime-snippet",
+		"/home/thomas/.config/sublime-text-2/Packages/User/gjs-snippets/A1d_events.sublime-snippet",
+		"/home/thomas/.config/sublime-text-2/Packages/User/gjs-snippets/A1request.sublime-snippet",
+		"/home/thomas/.config/sublime-text-2/Packages/User/gjs-snippets/A1events.sublime-snippet",
+		"/home/thomas/.config/sublime-text-2/Packages/User/gjs-snippets/A1options.sublime-snippet",
+		"/home/thomas/.config/sublime-text-2/Packages/User/gjs-snippets/A1data.sublime-snippet",
+		"/home/thomas/Development/async/live/snippets/A1.sublime-snippet",
+		"/home/thomas/.config/sublime-text-2/Packages/User/A1request.sublime-snippet",
+		"/home/thomas/Development/async/src/B/5_control_flow_with_async.js",
+		"/home/thomas/Development/async/D/0_generator_demo.js",
+		"/home/thomas/Development/async/D/1_create_wishlist.js",
+		"/home/thomas/Development/async/server/app.js",
+		"/home/thomas/Development/async/D/2_add_to_wishlist.js",
+		"/home/thomas/Development/async/C/4_control_flow_with_q.js",
+		"/home/thomas/Development/async/D/3_get_wishlist.js",
+		"/home/thomas/Development/async/C/5_control_flow_with_q_parallel.js",
+		"/home/thomas/Development/async/D/4_control_flow_with_co_thunks.js",
+		"/home/thomas/Development/async/D/6_control_flow_with_co_promises.js",
+		"/home/thomas/Development/async/D/5_control_flow_with_co_thunkify.js",
+		"/home/thomas/Development/async/D/test.js",
+		"/home/thomas/Development/async/C/1_create_wishlist.js",
+		"/home/thomas/Development/async/C/2_add_to_wishlist.js",
+		"/home/thomas/Development/async/C/3_get_wishlist.js",
+		"/home/thomas/Development/async/B/1_create_wishlist.js",
+		"/home/thomas/Development/async/B/2_add_to_wishlist.js",
+		"/home/thomas/Development/async/package.json",
+		"/home/thomas/Development/async/B/3_get_wishlist.js",
+		"/home/thomas/Development/async/lib/twitter-app.js",
+		"/home/thomas/Development/async/snippets/gjs2A.sublime-snippet",
+		"/home/thomas/Development/async/3_get_wish_list.js",
+		"/home/thomas/Development/async/2_add_to_wishlist.js",
+		"/home/thomas/Development/async/1_create_wishlist.js",
+		"/home/thomas/.config/sublime-text-2/Packages/User/gjs2A.sublime-snippet",
+		"/home/thomas/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/thomas/.config/sublime-text-2/Packages/JavaScript/Completion Rules.tmPreferences",
+		"/home/thomas/.config/sublime-text-2/Packages/JavaScript/Completion Rules.tmPreferences.cache",
+		"/home/thomas/Development/async/example-1.js",
+		"/home/thomas/Development/cellavi/src/styles/components/panels.less",
+		"/home/thomas/Development/cellavi/cellavi/src/test/scala/net/cellavi/app/CellaviServletSpec.scala",
+		"/home/thomas/Development/cellavi/cellavi/src/main/scala/ScalatraBootstrap.scala",
+		"/home/thomas/Development/cellavi/cellavi/src/main/scala/net/cellavi/app/CvServlet.scala",
+		"/home/thomas/Development/cellavi/src/styles/variables.less",
+		"/home/thomas/Development/cellavi/src/styles/layouts/main.less",
+		"/home/thomas/Development/cellavi/src/styles/mixins/nav-menu.less",
+		"/home/thomas/Development/cellavi/src/styles/layouts/admin.less",
+		"/home/thomas/Development/cellavi/src/partials/layouts/admin.html",
+		"/home/thomas/Development/cellavi/src/scripts/cellavi.js",
+		"/home/thomas/Development/cellavi/public/index.html",
+		"/home/thomas/Development/cellavi/app.js",
+		"/home/thomas/Development/cellavi/src/styles/controls/navs.less",
+		"/home/thomas/Development/cellavi/src/styles/app.less",
+		"/home/thomas/Development/cellavi/src/partials/layouts/cellar.html",
+		"/home/thomas/Development/cellavi/src/scripts/controllers/app.js",
+		"/home/thomas/Development/cellavi/bower.json",
+		"/home/thomas/Development/cellavi/api/cepages.js",
+		"/home/thomas/Development/cellavi/src/styles/components/tables.less",
+		"/home/thomas/Development/cellavi/src/styles/mixins.less",
+		"/home/thomas/Development/cellavi/src/styles/layouts/cellar.less",
+		"/home/thomas/Development/cellavi/gulpfile.js",
+		"/home/thomas/Development/cellavi/src/styles/controls/vertical-menu.less",
+		"/home/thomas/Development/cellavi/api/cepage-validation.js",
+		"/home/thomas/Development/cellavi/validation/lib.js",
+		"/home/thomas/Development/cellavi/src/styles/bootstrap/type.less",
+		"/home/thomas/Development/cellavi/src/styles/controls/navbar.less",
+		"/home/thomas/Development/cellavi/package.json",
+		"/home/thomas/Development/cellavi/test.js",
+		"/home/thomas/Development/cellavi/src/styles/bootstrap/pager.less",
+		"/home/thomas/Development/cellavi/src/styles/base/responsive-embed.less",
+		"/home/thomas/Development/cellavi/src/styles/base/media.less",
+		"/home/thomas/Development/cellavi/.gitignore",
+		"/home/thomas/Development/cellavi/.bowerrc",
+		"/home/thomas/Development/cellavi/app/rest/cepages.py",
+		"/home/thomas/Development/cellavi/public/styles/bootstrap.css",
+		"/home/thomas/Development/cellavi/Gruntfile.js",
+		"/home/thomas/Development/cellavi/public/scripts/cellavi.templates.js",
+		"/home/thomas/Development/cellavi/src/scripts/services/modal.js",
+		"/home/thomas/Development/cellavi/public/scripts/cellavi.min.js",
+		"/home/thomas/Development/cellavi/src/styles/bootstrap/cellar.less",
+		"/home/thomas/Development/cellavi/src/styles/bootstrap/page.less",
+		"/home/thomas/Development/cellavi/src/styles/bootstrap/variables.less",
+		"/home/thomas/Development/cellavi/src/styles/bootstrap/bootstrap.less",
+		"/home/thomas/Development/cellavi/public/partials/layouts/admin.html",
+		"/home/thomas/Development/cellavi/src/styles/bootstrap/navbar.less",
+		"/home/thomas/Development/cellavi/src/styles/bootstrap/panels.less",
+		"/home/thomas/Development/cellavi/public/partials/layouts/cellar.html",
+		"/home/thomas/Development/cellavi/appjs/../app.js",
+		"/home/thomas/Development/cellavi/app/rest/vignerons.py",
+		"/home/thomas/Development/cellavi/app/rest/regions.py",
+		"/home/thomas/Development/cellavi/app/cellavi.py",
+		"/home/thomas/Development/cellavi/app/identity.py",
+		"/home/thomas/Development/impartial/-html",
+		"/home/thomas/Development/cellavi/app/validators.py",
+		"/home/thomas/Development/cellavi/app/variables.py",
+		"/home/thomas/Development/cellavi/app/rest/users.py",
+		"/home/thomas/Development/cellavi/app/rest/flacons.py",
+		"/home/thomas/Development/cellavi/public/partials/admin/forms/flacon-form.html",
+		"/home/thomas/Development/cellavi/public/partials/admin/users.html",
+		"/home/thomas/Development/cellavi/src/scripts/factories/modal.js",
+		"/home/thomas/Development/cellavi/src/scripts/controllers/admin-users.js",
+		"/home/thomas/Development/cellavi/src/scripts/factories/api.js",
+		"/home/thomas/Development/cellavi/src/styles/bootstrap/navs.less",
+		"/home/thomas/Development/angular-drills/index.html",
+		"/home/thomas/Development/cellavi/public/partials/admin/flacons.html",
+		"/home/thomas/Development/cellavi/app/reqparse.py",
+		"/home/thomas/Development/cellavi/public/partials/admin/forms/user-form.html",
+		"/home/thomas/Development/cellavi/src/scripts/controllers/admin-flacons.js",
+		"/home/thomas/Development/cellavi/src/scripts/controllers/menu.js",
+		"/home/thomas/Development/cellavi/src/scripts/directives/check-list.js",
+		"/home/thomas/Development/cellavi/src/scripts/controllers/admin-vignerons.js",
+		"/home/thomas/Development/cellavi/data/backups/2014-30-01_winedb.sql",
+		"/home/thomas/Development/cellavi/src/scripts/controllers/admin-regions.js",
+		"/home/thomas/Development/cellavi/public/partials/admin/forms/region-form.html",
+		"/home/thomas/Development/cellavi/public/partials/admin/regions.html"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/home/thomas/Development/cellavi/scalapp/project",
+			"/home/thomas/Development/cellavi/scalapp/src",
+			"/home/thomas/Development/cellavi/scalapp",
+			"/home/thomas/Development/cellavi/cellavi/src",
+			"/home/thomas/Development/cellavi/cellavi",
+			"/home/thomas/Development/cellavi/cellavi/src",
+			"/home/thomas/Development/cellavi/src/styles",
+			"/home/thomas/Development/cellavi/src/scripts",
+			"/home/thomas/Development/cellavi/src/styles/bootstrap",
+			"/home/thomas/Development/cellavi/app",
+			"/home/thomas/Development/Platform2/Applications/Platform/public/test/e2e/specs/A-ST",
+			"/home/thomas/Development/Platform2/Applications/Platform/public/test/e2e/specs",
+			"/home/thomas/Development/Platform2/Applications/Dashboard"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"consol",
+			"badToken",
+			"base",
+			"webapp",
+			"sourceDirectory",
+			"8080",
+			"CvServlet",
+			"pointer-events",
+			"pointer events",
+			"param",
+			"table",
+			"z-index",
+			".cellar",
+			"extract",
+			"component-active-bg",
+			"active",
+			"cv-nav",
+			"padding",
+			"margin-top",
+			"border-radius",
+			"ul",
+			"fixed-top",
+			"theme",
+			"input",
+			"'",
+			"/partials/",
+			"/partials",
+			"partials/admin/forms",
+			"partials/admin/",
+			"partials/forms",
+			"border-r",
+			"/partials/",
+			"...",
+			"@navbar-inverse-link-active-color",
+			"navbar",
+			"float: left",
+			"navbar",
+			"colours",
+			"Flacon",
+			"flacon",
+			"slug",
+			"flacon",
+			"slug",
+			"flacon",
+			"Flacon",
+			"Flacons",
+			"flacon",
+			"flacons",
+			"user",
+			"string_in_range",
+			"slug",
+			"flacon",
+			"produc",
+			"RegionForm",
+			"region",
+			"Region",
+			"regionData",
+			"cleanStrictMode",
+			"jshint",
+			"cleanStrictMode",
+			"'\"",
+			"\"'",
+			"ng-translate",
+			" ng-",
+			"request",
+			"secret_key",
+			"src/js",
+			"src/lib",
+			"bootstrap/less",
+			"print",
+			"region",
+			"Region",
+			"concat",
+			"document",
+			"$window",
+			"menuPosition",
+			"console.",
+			"toggle(",
+			"focusToggleElement",
+			"generateRandomString",
+			"generateRandomPhrase",
+			"generateRandomString",
+			"breadcrumbStudyIdentifier",
+			"countElements",
+			"closeStudy",
+			"fdx.goTo.signIn",
+			"generateRandomString",
+			"scrollIntoView",
+			"openUserPage",
+			"generateRandomPhrase",
+			"generateRandomString",
+			"(scrollIntoView",
+			"fdx",
+			"folderForm",
+			"folders",
+			"getTestFilesToConcatenate",
+			"'",
+			"[type]",
+			"baseUrl",
+			"util",
+			"[type]",
+			"<html",
+			"\"",
+			"separator",
+			"},",
+			"continent",
+			"name",
+			"{name: ",
+			",",
+			"},",
+			",",
+			"{",
+			",",
+			"0 0 5px",
+			"rgba(0, 0, 255, 1)"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"badId",
+			"val",
+			"\"",
+			"partials/",
+			"User",
+			"user",
+			"email",
+			"user",
+			"email",
+			"user",
+			"User",
+			"Users",
+			"user",
+			"users",
+			"CepageForm",
+			"recordData",
+			"\"",
+			"translate",
+			" data-ng-",
+			"styles/bootstrap",
+			"cepage",
+			"Cepage",
+			"menuAlign",
+			"fdx.util.generateString",
+			"fdx.util.generatePhrase",
+			"fdx.util.generateString",
+			"fdx.element.count",
+			"fdx.util.randomString",
+			"fdx.element.scrollIntoView",
+			"fdx.util.randomPhrase",
+			"fdx.util.randomString",
+			"(fdx.element.scrollIntoView",
+			"\"",
+			"String",
+			"Object",
+			"'",
+			"0 0 5px",
+			"#cacaca"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/thomas/.config/sublime-text-2/Packages/User/gjs-snippets/C5b_all.sublime-snippet",
+					"settings":
+					{
+						"buffer_size": 310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								247,
+								247
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "live/C/1_create_wishlist.js",
+					"settings":
+					{
+						"buffer_size": 745,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								378,
+								378
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "live/C/4_control_flow_with_q.js",
+					"settings":
+					{
+						"buffer_size": 185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								185,
+								185
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "live/C/5_control_flow_with_q_parallel.js",
+					"settings":
+					{
+						"buffer_size": 185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								185,
+								185
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "live/D/0_generator_demo.js",
+					"settings":
+					{
+						"buffer_size": 169,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								156,
+								156
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"bootstrap",
+				"scalapp/src/main/scala/ScalatraBootstrap.scala"
+			],
+			[
+				"panels.",
+				"src/styles/components/panels.less"
+			],
+			[
+				"admin",
+				"src/styles/layouts/admin.less"
+			],
+			[
+				"nav-",
+				"src/styles/mixins/nav-menu.less"
+			],
+			[
+				"main.less",
+				"src/styles/layouts/main.less"
+			],
+			[
+				"app.less",
+				"src/styles/app.less"
+			],
+			[
+				"nav-menu",
+				"src/styles/mixins/nav-menu.less"
+			],
+			[
+				"cellar.hml",
+				"src/partials/layouts/cellar.html"
+			],
+			[
+				"admin.html",
+				"src/partials/layouts/admin.html"
+			],
+			[
+				"variab",
+				"src/styles/variables.less"
+			],
+			[
+				"table",
+				"src/styles/components/tables.less"
+			],
+			[
+				"admin.less",
+				"src/styles/layouts/admin.less"
+			],
+			[
+				"admin.",
+				"src/partials/layouts/admin.html"
+			],
+			[
+				"cellar",
+				"src/styles/layouts/cellar.less"
+			],
+			[
+				"navs",
+				"src/styles/controls/navs.less"
+			],
+			[
+				"index.h",
+				"public/index.html"
+			],
+			[
+				"gulpfile",
+				"gulpfile.js"
+			],
+			[
+				"varia",
+				"src/styles/variables.less"
+			],
+			[
+				"variables",
+				"src/styles/variables.less"
+			],
+			[
+				"nav",
+				"src/styles/controls/navs.less"
+			],
+			[
+				"navbar",
+				"src/styles/controls/navbar.less"
+			],
+			[
+				"index.",
+				"public/index.html"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"packe",
+				"package.json"
+			],
+			[
+				"grun",
+				"Gruntfile.js"
+			],
+			[
+				"panels",
+				"cellavi/src/styles/bootstrap/panels.less"
+			],
+			[
+				"admin.h",
+				"cellavi/public/partials/layouts/admin.html"
+			],
+			[
+				"flacon",
+				"cellavi/public/partials/admin/forms/flacon-form.html"
+			],
+			[
+				"flacon.html",
+				"cellavi/public/partials/admin/flacons.html"
+			],
+			[
+				"grunt",
+				"cellavi/Gruntfile.js"
+			],
+			[
+				"modal",
+				"cellavi/src/scripts/factories/modal.js"
+			],
+			[
+				"region-form",
+				"cellavi/public/partials/admin/forms/region-form.html"
+			],
+			[
+				"cellavi",
+				"cellavi/public/scripts/cellavi.js"
+			],
+			[
+				"api.js",
+				"cellavi/src/scripts/factories/api.js"
+			],
+			[
+				"confirm",
+				"cellavi/public/partials/modal/confirm.html"
+			],
+			[
+				".git",
+				"cellavi/.gitignore"
+			],
+			[
+				"gruntfile",
+				"cellavi/Gruntfile.js"
+			],
+			[
+				"theme.",
+				"cellavi/src/bootstrap/less/theme.less"
+			],
+			[
+				"jenkin",
+				"Platform2/Applications/conf/protractor.conf.jenkins.js"
+			],
+			[
+				"fdx.ele",
+				"Platform2/Applications/Platform/public/test/e2e/functions/fdx.element.js"
+			],
+			[
+				"fdx.resou",
+				"Platform2/Applications/Platform/public/test/e2e/functions/fdx.resource.js"
+			],
+			[
+				"fdx.goto",
+				"Platform2/Applications/Platform/public/test/e2e/functions/fdx.goTo.js"
+			],
+			[
+				"goto",
+				"Platform2/Applications/Platform/public/test/e2e/functions/fdx.goTo.js"
+			],
+			[
+				"session.",
+				"Platform2/Applications/Platform/public/test/e2e/functions/fdx.session.js"
+			],
+			[
+				"fdx.got",
+				"Platform2/Applications/Platform/public/test/e2e/functions/fdx.goTo.js"
+			],
+			[
+				"fdx.util",
+				"Platform2/Applications/Platform/public/test/e2e/functions/fdx.util.js"
+			],
+			[
+				"fdx.session",
+				"Platform2/Applications/Platform/public/test/e2e/functions/fdx.session.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 389.0,
+	"status_bar_visible": true
+}
