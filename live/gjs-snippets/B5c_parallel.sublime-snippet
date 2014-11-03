@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+function (data, next) {
+    id = data.id;
+    async.parallel([
+        $1
+    ], next);
+},
+]]></content>
+    <tabTrigger>B5c_parallel</tabTrigger>
+</snippet>

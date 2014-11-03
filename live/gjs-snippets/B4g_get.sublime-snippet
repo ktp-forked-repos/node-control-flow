@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+getList(id, function (err, data) {
+    console.log(data.wishlist);
+});
+]]></content>
+    <tabTrigger>B4g_get</tabTrigger>
+</snippet>

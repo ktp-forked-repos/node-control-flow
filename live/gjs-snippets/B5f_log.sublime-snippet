@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+console.log(data.wishlist);
+]]></content>
+    <tabTrigger>B5f_log</tabTrigger>
+</snippet>

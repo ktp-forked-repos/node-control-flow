@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+addItem(id, "A pair of flip flops I can walk miles with", function (err, data) {
+    $1
+});
+]]></content>
+    <tabTrigger>B4f_add4</tabTrigger>
+</snippet>

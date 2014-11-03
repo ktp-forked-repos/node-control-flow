@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+var http = require('http');
+
+var reqOptions = {
+    hostname: 'localhost',
+    path: '/whishList',
+    port: '8000',
+    method: 'POST'
+};
+
+$1
+]]></content>
+    <tabTrigger>A1a_options</tabTrigger>
+</snippet>

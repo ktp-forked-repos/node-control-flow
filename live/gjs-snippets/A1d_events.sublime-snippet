@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+// Listen for data
+res.on('data', function (chunk) {
+    data += chunk.toString();
+});
+
+// Listen for end
+res.on('end', function () {
+    console.log(data);
+});
+]]></content>
+    <tabTrigger>A1d_events</tabTrigger>
+</snippet>

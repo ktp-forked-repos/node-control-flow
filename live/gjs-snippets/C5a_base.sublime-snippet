@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+createList().then(function (data) {
+    id = data.id;
+    $1
+}).then(function () {
+    return getList(id);
+}).then(function (data) {
+    console.log(data.wishlist);
+});
+]]></content>
+    <tabTrigger>C5a_base</tabTrigger>
+</snippet>

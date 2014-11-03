@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+.then(function () {
+    return getList(id);
+}).then(function (data) {
+    console.log(data.wishlist);
+});
+]]></content>
+    <tabTrigger>C4f_list</tabTrigger>
+</snippet>

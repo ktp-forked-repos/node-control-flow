@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+req.on('error', function () {
+    cb('error');
+});
+]]></content>
+    <tabTrigger>B1c_error</tabTrigger>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+.then(function () {
+    return addItem(id, "A pair of flip flops I can walk miles with");
+})$1
+]]></content>
+    <tabTrigger>C4e_add4</tabTrigger>
+</snippet>

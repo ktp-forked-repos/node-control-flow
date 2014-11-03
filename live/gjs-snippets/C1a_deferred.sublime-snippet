@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+var deferred = Q.defer();
+]]></content>
+    <tabTrigger>C1a_deferred</tabTrigger>
+</snippet>

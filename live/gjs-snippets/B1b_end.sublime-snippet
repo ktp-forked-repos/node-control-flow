@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+try {
+    cb(undefined, JSON.parse(data));
+} catch (e) {
+    cb(e);
+}
+]]></content>
+    <tabTrigger>B1b_end</tabTrigger>
+</snippet>

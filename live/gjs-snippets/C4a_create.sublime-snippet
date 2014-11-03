@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+createList().then(function (data) {
+    id = data.id;
+    $1
+})
+]]></content>
+    <tabTrigger>C4a_create</tabTrigger>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+console.log(res.statusCode);
+
+// Data length
+var data = '';
+
+$1
+
+console.log('Data: ');
+]]></content>
+    <tabTrigger>A1c_data</tabTrigger>
+</snippet>

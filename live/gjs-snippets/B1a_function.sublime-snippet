@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+module.exports = function createList(cb) {
+    $1
+};
+]]></content>
+    <tabTrigger>B1a_function</tabTrigger>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+function (data, next) {
+    // console.log(arguments);
+    getList(id, next);
+}
+]]></content>
+    <tabTrigger>B5e_list</tabTrigger>
+</snippet>

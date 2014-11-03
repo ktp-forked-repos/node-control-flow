@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+function (cb) {
+    addItem(id, "A bike fast like the wind", cb);
+},
+function (cb) {
+    addItem(id, "An anti-slouching chair", cb);
+},
+function (cb) {
+    addItem(id, "An anti-slouching couch", cb);
+},
+function (cb) {
+    addItem(id, "A pair of flip flops I can walk miles with", cb);
+}
+]]></content>
+    <tabTrigger>B5d_add</tabTrigger>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+createList(function (err, data) {
+    var id = data.id;
+    $1
+});
+
+]]></content>
+    <tabTrigger>B4b_create</tabTrigger>
+</snippet>

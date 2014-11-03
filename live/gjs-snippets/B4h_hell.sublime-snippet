@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[
+createList(function (err, data) {
+    if (!err) {
+        var id = data.id;
+        addItem(id, "A bike fast like the wind", function (err, data) {
+            if (!err) {
+                addItem(id, "An anti-slouching chair", function (err, data) {
+                    if (!err) {
+                        addItem(id, "An anti-slouching couch", function (err, data) {
+                            if (!err) {
+                                addItem(id, "A pair of flip flops I can walk miles with", function (err, data) {
+                                    if (!err) {
+                                        getList(id, function (err, data) {
+                                            if (!err) {
+                                                console.log(data.wishlist);
+                                            }
+                                        });
+                                    }
+                                });
+                            }
+                        });
+                    }
+                });
+            }
+        });
+    }
+});
+]]></content>
+    <tabTrigger>B4h_hell</tabTrigger>
+</snippet>

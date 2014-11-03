@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+var req = http.request(reqOptions, function (res) {
+    $1
+});
+// End request
+req.end();
+
+console.log('Request with statusCode: ');
+]]></content>
+    <tabTrigger>A1b_request</tabTrigger>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+async.waterfall([
+    $1
+], function (err, data) {
+
+});
+]]></content>
+    <tabTrigger>B5a_waterfall</tabTrigger>
+</snippet>

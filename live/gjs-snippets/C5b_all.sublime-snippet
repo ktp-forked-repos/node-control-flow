@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+return Q.all([
+    addItem(id, "A bike fast like the wind"),
+    addItem(id, "An anti-slouching chair"),
+    addItem(id, "An anti-slouching couch"),
+    addItem(id, "A pair of flip flops I can walk miles with")
+]);
+]]></content>
+    <tabTrigger>C5b_all</tabTrigger>
+</snippet>

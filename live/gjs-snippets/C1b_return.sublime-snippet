@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[
+return deferred.promise;
+]]></content>
+    <tabTrigger>C1b_return</tabTrigger>
+</snippet>
