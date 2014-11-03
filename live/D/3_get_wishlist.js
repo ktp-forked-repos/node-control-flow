@@ -43,10 +43,3 @@ module.exports = function (id) {
         getList(id, cb);
     };
 };
-
-module.exports = function (id) {
-    getList(id, cb);
-    return function (cb) {
-        getList(id, cb);
-    };
-};

@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Callbacks and Control Flow in NodeJS</title>
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="assets/reveal.min.css">
+        <link rel="stylesheet" href="assets/solarized.css" id="theme">
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="assets/zenburn.css">
+
+        <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+        <script>
+            if( window.location.search.match( /print-pdf/gi ) ) {
+                var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'assets/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+                <section>
+                    <h2>Asynchronous coding in NodeJS</h2>
+                    <h3>Callbacks and control flow</h3>
+
+                    <img src="images/nodejs.png" class="no-border" /><br/>
+
+                    <small>Thomas Roch, Formedix Ltd</small>
+                </section>
+
+                <section>
+                    <h2>What is NodeJS</h2>
+
+                    <blockquote>Node.js uses an <strong>event-driven</strong>, <strong>non-blocking I/O</strong> model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.</blockquote><br/>
+
+                    <ul class="fragment">
+                        <li style="font-family:Monospace;">Event driven &nbsp;&nbsp;&nbsp;=> event listeners</li>
+                        <li style="font-family:Monospace;">Non-blocking IO => callbacks</li>
+                    </ul>
+
+                    <div class="fragment">
+                        <h2><br/>=</h2>
+
+                        <h3>Asynchronous</h3>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Node API</h2>
+
+                    <p>Non-blocking functions take callbacks (last argument) of two forms:</p>
+<pre><code class="javascript hljs">
+function (err, res) {
+    // Do something
+}
+
+function (res) {
+    // Do something
+}
+</code></pre>
+                </section>
+
+                <section>
+                    <h2>Example</h2>
+
+                    <p>A wish list server where one can:</p>
+                    <ul>
+                        <li>Create a whish list</li>
+                        <li>Add items to a whish list</li>
+                        <li>Retrieve the content of a whishlist</li>
+                    </ul>
+
+                    <p style="margin-top: 10px;">
+                        <a href="https://github.com/troch/node-control-flow/blob/master/server/app.js">Code available here</a>
+                    </p>
+                </section>
+
+                <section>
+                    <h2>REST API</h2>
+
+                    <ul>
+                        <li style="font-family:Monospace;">POST /whishList</li>
+                        <li style="font-family:Monospace;">POST /whishList/{id}</li>
+                        <li style="font-family:Monospace;">GET &nbsp;/whishList/{id}</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>What we aim for</h2>
+
+                    <img src="images/create-add-list.png" class="no-border" /><br/>
+                </section>
+
+                <section>
+                    <h2>What we are going to do first</h2>
+
+                    <img src="images/create-add-list-2.png" class="no-border" /><br/>
+                </section>
+
+                <section>
+                    <h1>Questions</h1>
+                </section>
+            </div>
+        </div>
+
+        <script src="assets/head.min.js"></script>
+        <script src="assets/reveal.min.js"></script>
+
+        <script>
+
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Parallax scrolling
+                // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+                // parallaxBackgroundSize: '2100px 900px',
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    // { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    // { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    // { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'assets/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    // { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'assets/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                ]
+            });
+
+        </script>
+
+    </body>
+</html>

@@ -1,4 +1,15 @@
 {
+  "name": "node-control-flow",
+  "version": "1.0.0",
+  "description": "A presentation about callbacks and control flow in NodeJS",
+  "author": {
+    "name": "Thomas Roch",
+    "email": "thomas.c.roch@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/troch/node-control-flow.git"
+  },
   "devDependencies": {
     "async": "^0.9.0",
     "q": "^1.0.1",
