@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-return addItem(id, "A bike fast like the wind");
+return addItem(id, "A bike which works against the wind");
 ]]></content>
     <tabTrigger>C4b_add1</tabTrigger>
 </snippet>

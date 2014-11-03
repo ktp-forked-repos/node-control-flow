@@ -45,6 +45,10 @@
                 </section>
 
                 <section>
+                    <h2>Node's experience anyone?</h2>
+                </section>
+
+                <section>
                     <h2>What is NodeJS</h2>
 
                     <blockquote>Node.js uses an <strong>event-driven</strong>, <strong>non-blocking I/O</strong> model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.</blockquote><br/>
@@ -62,7 +66,7 @@
                 </section>
 
                 <section>
-                    <h2>Node API</h2>
+                    <h2>Before we start</h2>
 
                     <p>Non-blocking functions take callbacks (last argument) of two forms:</p>
 <pre><code class="javascript hljs">
@@ -77,6 +81,19 @@ function (res) {
                 </section>
 
                 <section>
+                    <h2>We are going to talk about</h2>
+
+                    <ul>
+                        <li>Callback hell</li>
+                        <li>Inversion of control</li>
+                        <li>Control flow</li>
+                        <li>Promises</li>
+                        <li>Thunks</li>
+                        <li>Generators (or iterators)</li>
+                    </ul>
+                </section>
+
+                <section>
                     <h2>Example</h2>
 
                     <p>A wish list server where one can:</p>
@@ -86,7 +103,7 @@ function (res) {
                         <li>Retrieve the content of a whishlist</li>
                     </ul>
 
-                    <p style="margin-top: 10px;">
+                    <p style="margin-top: 60px;">
                         <a href="https://github.com/troch/node-control-flow/blob/master/server/app.js">Code available here</a>
                     </p>
                 </section>
@@ -111,6 +128,152 @@ function (res) {
                     <h2>What we are going to do first</h2>
 
                     <img src="images/create-add-list-2.png" class="no-border" /><br/>
+                </section>
+
+                <section>
+                    <h2>Example A</h2>
+
+                    <p>A mix of events and non-blocking<br/>functions with http.request() for:</br></p>
+                    <ul>
+                        <li><a href="https://github.com/troch/node-control-flow/blob/master/A/1_create_wishlist.js">Creating a list</a></li>
+                        <li><a href="https://github.com/troch/node-control-flow/blob/master/A/2_add_to_wishlist.js">Adding an item to a list</a></li>
+                        <li><a href="https://github.com/troch/node-control-flow/blob/master/A/3_get_wishlist.js">Getting a list's content</a></li>
+                    <ul>
+                </section>
+
+                <section>
+                    <h2>Example B:</h2>
+
+                    <p>Turn this mess into functions accepting callbacks</br></p>
+
+                    <p style="margin-top: 20px;">
+                        With 3 functions:
+                        <a href="https://github.com/troch/node-control-flow/blob/master/B/1_create_wishlist.js">createList</a>,
+                        <a href="https://github.com/troch/node-control-flow/blob/master/B/2_add_to_wishlist.js">addItem</a>,
+                        <a href="https://github.com/troch/node-control-flow/blob/master/B/3_get_wishlist.js">getList</a>...
+                    </p>
+
+                    <p style="margin-top: 20px;" class="fragment">
+                        ...we are creating a nice "<strong><a href="https://github.com/troch/node-control-flow/blob/master/B/4_control_flow_with_cb.js">callback hell</a></strong>" aka "<strong>callback pyramid</strong>"
+                    </p>
+                </section>
+
+                <section>
+                    <h2>Async to the rescue</h2>
+
+                    <p style="margin-top: 20px;">
+                        <a href="https://github.com/troch/node-control-flow/blob/master/B/5_control_flow_with_async.js">First control flow example</a> with <a href="https://github.com/caolan/async">https://github.com/caolan/async</a>
+                    </p>
+
+                    <ul style="margin-top: 20px;">
+                        <li>async.series()</li>
+
+                        <li>async.waterfall()</li>
+
+                        <li>async.parallel()</li>
+
+                        <li>Works with any non-blocking function "the node way"</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>OK... we've done stuff in parallel</h2>
+
+                    <ul style="margin-top: 20px;">
+                        <li>Does this look good?</li>
+
+                        <li>What about avoiding iversion of control?</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Example C: using Promises</h2>
+
+                    <ul style="margin-top: 20px;">
+                        <li>ES6 feature but implementations available in ES5</li>
+
+                        <li style="margin-top: 10px">
+                            Returns a deferred result (success or error) accessed using .then():
+                            <a href="https://github.com/troch/node-control-flow/blob/master/C/1_create_wishlist.js">createList</a>,
+                            <a href="https://github.com/troch/node-control-flow/blob/master/C/2_add_to_wishlist.js">addItem</a>,
+                            <a href="https://github.com/troch/node-control-flow/blob/master/C/3_get_wishlist.js">getList</a>
+                        </li>
+
+                        <li style="margin-top: 10px">Control flow using <a href="https://github.com/kriskowal/q/">q</a>: chaining promises, error propagation, Q.all...</li>
+
+                        <li style="margin-top: 10px">Compatible with Node API functions using Q.nfcall()</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Before example D</h2>
+
+                    <p style="margin-top: 20px;">
+                        Generators (or iterators)! What are they?
+                    </p>
+
+<pre><code class="javascript hljs">
+function* () {
+    yield 1;
+
+    return 2;
+}
+</code></pre>
+                </section>
+
+                <section>
+                    <h2>Example D: using generators</h2>
+
+                    <ul>
+                        <li style="margin-top: 10px;">
+                            What about yielding a promise or a thunk? a what?
+                        </li>
+
+                        <li style="margin-top: 10px;">
+                            Control flow using <a href="https://github.com/tj/co">co</a>
+                        </li>
+                    </ul>
+
+<pre><code class="javascript hljs">
+// The node way
+phoneMyPal(number, function (err, res) {
+    console.log('hi');
+});
+
+// A thunk
+phoneMyPal(number)(function (err, res) {
+    console.log('hi');
+});
+</code></pre>
+
+                    <p style="margin-top: 20px;">
+                        Let's thunkify
+                        <a href="https://github.com/troch/node-control-flow/blob/master/D/1_create_wishlist.js">createList</a>,
+                        <a href="https://github.com/troch/node-control-flow/blob/master/D/2_add_to_wishlist.js">addItem</a>,
+                        <a href="https://github.com/troch/node-control-flow/blob/master/D/3_get_wishlist.js">getList</a>
+                    </p>
+                </section>
+
+                <section>
+                    <h2>Example D: using generators</h2>
+
+                    <ul>
+                        <li style="margin-top: 10px;">
+                            <a href="https://github.com/tj/co">co</a> works with thunks or promises
+                        </li>
+
+                        <li style="margin-top: 10px;">
+                            Compatible with Node API using <a href="https://github.com/tj/node-thunkify">thunkify</a>
+                        </li>
+
+                        <li style="margin-top: 10px;">
+                            Non-blocking code looking like it is not!
+                        </li>
+
+                        <li style="margin-top: 10px;">
+                            Used by <a href="https://github.com/koajs/koa">koa.js</a>, a web application framework
+                        </li>
+                    </ul>
                 </section>
 
                 <section>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+yield [
+    $1
+];
+
+]]></content>
+    <tabTrigger>D4c_yield_arr</tabTrigger>
+</snippet>

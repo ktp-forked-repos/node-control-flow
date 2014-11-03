@@ -7,26 +7,26 @@ var reqOptions = {
     method: 'POST'
 };
 
-var req = http.request(reqOptions, function (res) {
-    // Echo status code
-    console.log(res.statusCode);
+module.exports = function createList(cb) {
+    var req = http.request(reqOptions, function (res) {
+        // Echo status code
+        console.log(res.statusCode);
 
-    // Data length
-    var data = '';
+        // Data length
+        var data = '';
 
-    // Listen for data
-    res.on('data', function (chunk) {
-        data += chunk.toString();
+        // Listen for data
+        res.on('data', function (chunk) {
+            data += chunk.toString();
+        });
+
+        // Listen for end
+        res.on('end', function () {
+            console.log(data);
+        });
     });
+    // End request
+    req.end();
+};
 
-    // Listen for end
-    res.on('end', function () {
-        console.log(data);
-    });
 
-    console.log('Data: ');
-});
-// End request
-req.end();
-
-console.log('Request with statusCode: ');

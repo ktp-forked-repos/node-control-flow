@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-addItem(id, "A bike fast like the wind", function (err, data) {
+addItem(id, "A bike which works against the wind", function (err, data) {
     $1
 });
 ]]></content>

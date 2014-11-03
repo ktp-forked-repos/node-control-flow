@@ -30,7 +30,7 @@ var req = http.request(reqOptions, function (res) {
     console.log('Data: ');
 });
 // End request
-req.write('{"item":"Flip flops I can walk with"}');
+req.write('{"item":"A bike which works against the wind"}');
 req.end();
 
 console.log('Request with statusCode: ');

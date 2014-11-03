@@ -13,7 +13,7 @@ async.waterfall([
         id = data.id;
         async.parallel([
             function (cb) {
-                addItem(id, "A bike fast like the wind", cb);
+                addItem(id, "A bike which works against the wind", cb);
             },
             function (cb) {
                 addItem(id, "An anti-slouching chair", cb);

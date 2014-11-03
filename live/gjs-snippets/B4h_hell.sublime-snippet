@@ -3,7 +3,7 @@
 createList(function (err, data) {
     if (!err) {
         var id = data.id;
-        addItem(id, "A bike fast like the wind", function (err, data) {
+        addItem(id, "A bike which works against the wind", function (err, data) {
             if (!err) {
                 addItem(id, "An anti-slouching chair", function (err, data) {
                     if (!err) {

@@ -7,7 +7,7 @@ co(function *(){
     var data = yield createList();
 
     yield [
-        addItem(data.id, "A bike fast like the wind"),
+        addItem(data.id, "A bike which works against the wind"),
         addItem(data.id, "An anti-slouching chair"),
         addItem(data.id, "An anti-slouching couch"),
         addItem(data.id, "A pair of flip flops I can walk miles with")

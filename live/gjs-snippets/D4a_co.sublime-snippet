@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+var createList = require('./1_create_wishlist'),
+       addItem = require('./2_add_to_wishlist'),
+       getList = require('./3_get_wishlist'),
+            co = require('co');
+
+co(function *(){
+    $1
+})();
+
+]]></content>
+    <tabTrigger>D4a_co</tabTrigger>
+</snippet>

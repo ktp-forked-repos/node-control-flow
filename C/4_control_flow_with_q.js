@@ -7,7 +7,7 @@ var id;
 
 createList().then(function (data) {
     id = data.id;
-    return addItem(id, "A bike fast like the wind");
+    return addItem(id, "A bike which works against the wind");
 }).then(function () {
     return addItem(id, "An anti-slouching chair");
 }).then(function () {

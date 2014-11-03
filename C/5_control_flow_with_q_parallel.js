@@ -8,7 +8,7 @@ var id;
 createList().then(function (data) {
     id = data.id;
     return Q.all([
-        addItem(id, "A bike fast like the wind"),
+        addItem(id, "A bike which works against the wind"),
         addItem(id, "An anti-slouching chair"),
         addItem(id, "An anti-slouching couch"),
         addItem(id, "A pair of flip flops I can walk miles with")
